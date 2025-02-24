@@ -1,0 +1,14 @@
+.gcloudignore
+.git
+.gitignore
+.gitattributes
+.env
+README.md
+doc
+client
+node_modules
+sql/**
+#!include:.gitignore
+client/**
+!client/
+!client/build/**
