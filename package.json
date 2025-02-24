@@ -1,0 +1,28 @@
+{
+  "name": "happiness-index-map",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "client": "client",
+    "server": "server",
+    "sql": "sql"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build-start": "cd client && npm run build && cd .. && node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.4"
+  }
+}
